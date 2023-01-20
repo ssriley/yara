@@ -1,5 +1,7 @@
+import "pe"
+
 rule SUSP_Just_EICAR {
-   meta:
+meta:
       description = "Just an EICAR test file - this is boring but users asked for it"
       author = "Florian Roth"
       reference = "http://2016.eicar.org/85-0-Download.html"
